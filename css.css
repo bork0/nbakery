@@ -82,3 +82,7 @@ section img {
     list-style-type: none;
     padding: 0;
 }
+
+blockquote {
+    text-align: center;
+}
