@@ -4,19 +4,29 @@ body {
     background-color: #fff1d7;
     margin: 5px;
     font-family: 'Advent Pro', sans-serif;
+    font-size: 25px;
+}
+
+.headerphoto {
+    display: flex;
+    justify-content: center;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    font-size: 32px;
 }
 
 footer {
     background-color: #444444;
+    font-size: 16px;
 }
 
 .contacts {
     color: white;
     text-align: right;
-}
-
-table a {
-    flex-direction: column;
+    margin-right: 20px;
 }
 
 form input {
@@ -48,14 +58,12 @@ iframe {
     margin: 0 auto;
     border: 0;
 }
+
 .icon {
     width: 30px;
     height: 30px;
 }
 
-section img {
-    width: 100%;
-}
 
 .dir {
     text-align: center;
@@ -69,20 +77,47 @@ section img {
     width: 100%;
 }
 
-.menu {
-    width: 100%
+.menulist {
+    display: grid;
+    grid-template: 100% / 50% 50%;
 }
 
-.menu h2 {
-    text-align: center;
-}
-
-.menu ul {
-    text-align: center;
-    list-style-type: none;
+.menulist ul {
     padding: 0;
 }
 
+div {
+    text-align: center;
+    grid-area: 1/1/2/2;
+}
+
+.bakeexamples {
+    width: 600px;
+    height: 600px;
+    grid-column: 2;
+    grid-row: 2/3;
+}
+
+.bakeexamples2 {
+    width: 600px;
+    height: 600px;
+    margin-top: 15px;
+    grid-column: 2;
+    grid-row: 1/2;
+}
+
 blockquote {
+    display: flex;
+    justify-content: center;
+    margin-top: 80px;
+    font-size: 2rem;
+}
+
+.linkedfooter {
+    float: left;
+    margin-left: 20px;
+}
+
+form {
     text-align: center;
 }
