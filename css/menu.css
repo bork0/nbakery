@@ -1,0 +1,30 @@
+.menulist {
+    display: grid;
+    grid-template: 100% / 50% 50%;
+    width: 100%;
+}
+
+.menulist ul {
+    padding: 0;
+}
+
+
+div {
+    text-align: center;
+    grid-area: 1/1/2/2;
+    width: 100%
+}
+
+.bakeexample-buns-in-basket {
+    margin-top: 15px;
+    width: auto;
+    grid-column: 2;
+    grid-row: 1;
+}
+
+.bakeexample-buns {
+    width: auto;
+    grid-column: 2;
+    grid-row: 1;
+}
+

@@ -1,0 +1,42 @@
+.orderonline {
+    display: grid;
+    grid-template: 100%/25% 50% 25%;
+}
+
+article { 
+    grid-area: 1/2/2/3;
+    text-align: center;
+}
+
+form {
+    text-align: center;
+    border-radius: 20px;
+}
+
+form input {
+    background-color: #929292;
+    border: 0;
+    padding: 0;
+    width: 50%;
+    height: 30px;
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+
+
+form textarea {
+    display: flex;
+    justify-content: center;
+    background-color: #929292;
+    padding: 0;
+    border: 0;
+    height: 100px;
+    width: 50%;
+    color: white;
+}
+
+::placeholder {
+    color: white;
+    text-align: center;
+}
