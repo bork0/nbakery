@@ -1,42 +1,75 @@
-.orderonline {
-    display: grid;
-    grid-template: 100%/25% 50% 25%;
+article {
+    text-align: center;
 }
 
-article { 
-    grid-area: 1/2/2/3;
-    text-align: center;
+.chosen {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.chosen img {
+    margin-right: 15px;
+    width: 25px;
+    height: 25px;
 }
 
 form {
     text-align: center;
-    border-radius: 20px;
 }
 
 form input {
-    background-color: #929292;
-    border: 0;
-    padding: 0;
-    width: 50%;
-    height: 30px;
+    background-color: #444444;
+    border-radius: 30px;
+    text-align: center;
+    height: 40px;
+    width: 100%;
+    margin: 3px;
+    outline: none;
     color: white;
-    display: flex;
-    justify-content: center;
 }
 
+@media (min-width: 700px) {
+    form input {
+        width: 60%
+    }
+}
 
-form textarea {
-    display: flex;
-    justify-content: center;
-    background-color: #929292;
-    padding: 0;
-    border: 0;
-    height: 100px;
-    width: 50%;
+.description-of-the-order {
+    border-radius: 30px;
+    background-color: #444444;
+    outline: none;
+    margin-top: 20px;
+    height: 120px;
+    width: 100%;
     color: white;
+    text-align: center;
+}
+
+@media (min-width: 700px) {
+    .description-of-the-order {
+        width: 60%
+    }
+}
+
+.button {
+    width: 20%
+}
+
+@media (min-width: 700px) {
+    .button {
+        width: 10%;
+    }
 }
 
 ::placeholder {
     color: white;
     text-align: center;
+    font-size: 10px;
+}
+
+@media (min-width: 700px) {
+    ::placeholder {
+        font-size: 15px;
+    }
 }
