@@ -1,11 +1,21 @@
 blockquote {
     display: flex;
     justify-content: center;
-    margin-top: 80px;
-    font-size: 2rem;
+    margin-top: 30px;
+    font-size: 1.5rem;
     color: white;
+    padding: 3px 3px;
     background-color: #444444;
     border-radius: 30px;
+}
+
+.paralax_bakery_window {
+    background-image: url('../img/bakery_window.jpg');
+    min-height: 350px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 div {
@@ -16,4 +26,13 @@ div {
 
 .mainpagebakery {
     width: 100%;
+}
+
+.paralax_bakery_hall {
+    background-image: url('../img/bakery_hall.jpg');
+    min-height: 500px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
