@@ -24,6 +24,11 @@ ul {
     }
 }
 
+@media (min-width: 950px) {
+    .breakfast {
+        margin-top: 0;
+    }
+}
 
 @media (min-width: 950px) {
     .menulist-photos {
