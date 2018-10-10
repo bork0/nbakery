@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css?family=Advent+Pro");
+@import url('https://fonts.googleapis.com/css?family=Indie+Flower');
 
 body {
     max-width: 1000px;
@@ -19,6 +20,7 @@ nav {
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
+    font-family: 'Indie Flower', cursive;
     font-size: 35px;
 }
 
