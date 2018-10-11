@@ -10,10 +10,17 @@ body {
 }
 
 .headerphoto {
+    margin-top: 33.5px;
+    margin-bottom: 33.5px;
+    height: 66.9px;
     display: flex;
     justify-content: center;
     margin-left: 0;
     margin-right: 0;
+}
+
+.headerphoto img {
+    height: 66.9px;
 }
 
 nav {
@@ -22,6 +29,7 @@ nav {
     flex-wrap: wrap;
     font-family: 'Indie Flower', cursive;
     font-size: 35px;
+    height: 51px;
 }
 
 nav a {
@@ -31,6 +39,7 @@ nav a {
 }
 
 nav a:hover {
+    color: black;
     text-decoration: underline;
 }
 
