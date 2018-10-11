@@ -14,6 +14,7 @@ blockquote {
 }
 
 .paralax_bakery_window {
+    position: relative;
     background-image: url('../img/bakery_window.jpg');
     min-height: 350px;
     background-attachment: fixed;
@@ -33,10 +34,17 @@ div {
 }
 
 .paralax_bakery_hall {
+    position: relative;
     background-image: url('../img/bakery_hall.jpg');
     min-height: 500px;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+@media only screen and (max-device-width: 1024px) {
+    .paralax_bakery_hall, .paralax_bakery_window {
+        background-attachment: scroll;
+    }
 }
