@@ -3,7 +3,7 @@ body {
 }
 
 #promoButton {
-        background-color: #14A459;
+        background-color: #e35539 ;
         border-color: white;
         width:100px;
     }
@@ -37,7 +37,7 @@ body {
     display:block;
     position: relative;
     margin: 0 auto;
-    background-color: #14A459;
+    background-color:  #e35539;
     border-color: white;
 }
 
