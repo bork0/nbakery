@@ -1,4 +1,4 @@
-    #promoButton {
+#promoButton {
         background-color: #14A459;
         border-color: white;
         width:100px;
@@ -19,6 +19,13 @@
     border-color: #6c757d;
     height: 38px;
     width: 100%;
+    font-size: 14px;
+}
+
+@media (min-width:530px) {
+    #display_discount, #display_product {
+        font-size: 25px;
+    }
 }
 
 #product, #discount {
