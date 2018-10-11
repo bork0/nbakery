@@ -1,3 +1,7 @@
+body {
+    line-height: normal;
+}
+
 #promoButton {
         background-color: #14A459;
         border-color: white;
